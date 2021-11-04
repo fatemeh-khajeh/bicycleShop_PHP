@@ -1,0 +1,47 @@
+/**************************************************** GENERAL ************************************************/
+*{ margin: 0; }
+body{ font-family : verdana; font-size: 12px; }
+a{text-decoration: none; color: #000}
+.conteneur{ margin: 0 auto; max-width: 1170px; }
+/**************************************************** HAUT ************************************************/
+header { background: #000000; padding: 5px; text-align: center; }
+header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #000;
+  background-color: #5791a9;
+}
+header  span{ color: #ff3300; font-weight: bold; text-transform: uppercase; margin-right: 5%; text-align: center;}
+header ul li {
+  float: left;
+}
+header ul li a {
+  display: block;
+  padding: 15px 14px;
+  text-align: center;
+  color: #fff;
+}
+header ul li a:hover{ background: #04baf6; }
+
+.title{
+  text-align: center;
+  color: #1709c7;
+}
+
+.logo{
+
+  text-align: center;
+
+}
+
+.left{
+  float: left;
+}
+.tab{
+  border: 1px solid black;
+}
+#r{
+  float: right;
+}
